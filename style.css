@@ -3,14 +3,15 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 :root {
   --text-color: white;
   --bg-url: url(./assets/bg-mobile.jpg);
   --stroke-color: rgba(255, 255, 255, 0.51);
-  --surface-color: rgba(255, 255, 255, 0.5);
+  --surface-color: rgba(255, 255, 255, 0.1);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(255, 255, 255, 0.2);
-  --switch-bg-url: url(./assets/moon-stars.svg)
+  --switch-bg-url: url(./assets/moon-stars.svg);
 }
 
 .light {
@@ -20,7 +21,7 @@
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(0, 0, 0, 0.01);
-  --switch-bg-url: url(./assets/sun.svg)
+  --switch-bg-url: url(./assets/sun.svg);
 }
 
 body {
@@ -34,7 +35,7 @@ body * {
 
 #container {
   width: 360px;
-  margin: 56px auto 0px;
+  margin: 48px auto 0px;
   padding: 0 24px;
 }
 #profile {
@@ -55,39 +56,36 @@ body * {
   margin-top: 8px;
 }
 /*switch*/
-#switch{
-
+#switch {
   position: relative;
   width: 64px;
   margin: 4px auto;
-  
 }
-#switch button{
+
+#switch button {
   width: 32px;
   height: 32px;
-  background: white var(--switch-bg-url) no-repeat
-  center;
+  background: white var(--switch-bg-url) no-repeat center;
   border: 0;
   border-radius: 50%;
   position: absolute;
   left: 0;
   z-index: 1;
   top: 50%;
-  transform:translateY(-50%);
+  transform: translateY(-50%);
 }
 .light #switch button {
   right: 0;
   left: initial;
-
 }
-#switch span{
+#switch span {
   display: block;
-  Width:64px;
-  Height:24px;
+  width: 64px;
+  height: 24px;
   background: var(--surface-color);
   border: 1px solid var(--stroke-color);
   backdrop-filter: blur(4px);
-  -webkit-backdrop-filter:blur(4px);
+  -webkit-backdrop-filter: blur(4px);
   border-radius: 9999px;
 }
 
@@ -120,27 +118,23 @@ ul li a:hover {
 /*social-links*/
 #social-links {
   display: flex;
-  gap: 16px;
+  gap: 10px;
   justify-content: center;
-  font-size: 32px;
-  padding: 24px 0;
+  font-size: 28px;
+  padding: 16px 0;
 }
-#social-links a{
+#social-links a {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 16px;
   transition: background 2s;
   border-radius: 50%;
-
-
 }
-   #social-links a:hover{
-    background: rgba(255, 255, 255, 0.2);
-
-   }
+#social-links a:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
 footer {
   text-align: center;
-  padding: 24px 0;
   font-size: 14px;
 }
