@@ -21,7 +21,7 @@ Mini-Projeto Web construido por mim, atraves de ensinamentos passados pelo grand
 ## Dark Mode
 
 <p align="center">
-  <img alt="Dark Mode" src="assets/preview-dark.png" width="100%">
+  <img alt="Dark Mode" src="assets/preview-dark.png" />
 </p>
 
 ## Light Mode
