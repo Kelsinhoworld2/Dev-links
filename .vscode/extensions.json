@@ -1,0 +1,8 @@
+{
+    "recommendations" :[
+        "esbenp.prettier-vscode",
+        "Pkief.material-icon-theme",
+        "Rockseat.theme-ommi",
+        "Ritwickdey.liveserver",
+    ]
+}

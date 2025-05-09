@@ -1,0 +1,32 @@
+{ // editor
+"editor.wordwrap": "on",
+"editor.fontSize": "18",
+"editor.lineHeight": "30",
+"editor.tabSize": "2",
+"editor.backetPairColorization.enable": true,
+"editor.guides.backetPairs": true,
+"editor.minimap.enable": false,
+"editor.formatOneSave": true,
+"editor.formatOnePaste": true,
+
+
+
+
+
+
+// explorer
+"explorer.compactfolders": false,
+
+// workbench
+"workbenck.editor.enablepreview": false,
+"wokbench.icontheme":
+"material-icon-theme",
+"workbench.colortheme": "ommi",
+
+// prettier
+"editor.defaultformatter": "esbenp.
+prettier-vscode"
+"prettier.enable": true
+"prettier.singleQuote": false
+
+}
